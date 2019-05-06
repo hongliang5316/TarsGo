@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
+	"github.com/hongliang5316/TarsGo/tars/protocol/res/requestf"
 )
 
 //Servant is interface for call the remote server.

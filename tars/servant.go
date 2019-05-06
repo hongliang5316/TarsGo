@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/basef"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
-	"github.com/TarsCloud/TarsGo/tars/util/tools"
+	"github.com/hongliang5316/TarsGo/tars/protocol/res/basef"
+	"github.com/hongliang5316/TarsGo/tars/protocol/res/requestf"
+	"github.com/hongliang5316/TarsGo/tars/util/tools"
 )
 
 //ServantProxy is the struct for proxy servants.

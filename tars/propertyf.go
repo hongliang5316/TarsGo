@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/propertyf"
-	"github.com/TarsCloud/TarsGo/tars/util/tools"
+	"github.com/hongliang5316/TarsGo/tars/protocol/res/propertyf"
+	"github.com/hongliang5316/TarsGo/tars/util/tools"
 )
 
 //ReportMethod is the interface for all kinds of report methods.

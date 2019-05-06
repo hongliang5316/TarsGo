@@ -6,11 +6,11 @@ package notifyf
 import (
 	"context"
 	"fmt"
-	m "github.com/TarsCloud/TarsGo/tars/model"
-	"github.com/TarsCloud/TarsGo/tars/protocol/codec"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
-	"github.com/TarsCloud/TarsGo/tars/util/current"
-	"github.com/TarsCloud/TarsGo/tars/util/tools"
+	m "github.com/hongliang5316/TarsGo/tars/model"
+	"github.com/hongliang5316/TarsGo/tars/protocol/codec"
+	"github.com/hongliang5316/TarsGo/tars/protocol/res/requestf"
+	"github.com/hongliang5316/TarsGo/tars/util/current"
+	"github.com/hongliang5316/TarsGo/tars/util/tools"
 )
 
 //Notify struct
