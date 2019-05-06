@@ -89,7 +89,7 @@ func (c *connection) send(conn net.Conn) {
 				return
 			}
 			// TODO: check one-way invoke for idle detect
-			if c.invokeNum == 0 && c.idleTime.Add(c.tc.conf.IdleTimeout).Before(time.Now()) {
+			if atomic.LoadInt32(&c.invokeNum) == 0 && c.idleTime.Add(c.tc.conf.IdleTimeout).Before(time.Now()) {
 				c.close(conn)
 				return
 			}

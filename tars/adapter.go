@@ -125,7 +125,7 @@ func (c *AdapterProxy) checkActive() {
 			loop.Stop()
 			return
 		}
-		if c.failCount > c.sendCount/2 {
+		if atomic.LoadInt32(&c.failCount) > atomic.LoadInt32(&c.sendCount)/2 {
 			c.status = false
 		}
 		if !c.status && count > AdapterProxyResetCount {
